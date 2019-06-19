@@ -2,6 +2,7 @@
 
 int main (int argc, char *argv[])
 {
-    std::cout << "hello sonarqube!" << std::endl;
+    int i = 69;
+    std::cout << "hello sonarqube!" << i << std::endl;
     return 0;
 }
