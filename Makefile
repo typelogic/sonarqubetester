@@ -1,7 +1,8 @@
+
 app: app.cpp
-	g++ app.cpp -o app
+	g++ --coverage app.cpp -o app
 
 clean:
-	@rm -f app *.o
+	@rm -f app *.o *.gcno
 
 .PHONY: clean
